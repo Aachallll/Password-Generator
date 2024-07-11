@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto Slab;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: rgb(2,0,36);
+    background: linear-gradient(95deg, rgba(2,0,36,1) 19%, rgba(102,26,147,1) 63%); */
+    background: rgb(102,26,147);
+background: linear-gradient(95deg, rgba(102,26,147,1) 0%, rgba(2,0,36,1) 100%);
+}
+.container{
+    width: 90%;
+    max-width: 450px;
+}
+.heading1{
+    color: aliceblue; 
+    opacity: 0.75;
+   letter-spacing: 2px;
+   text-align: center;
+   line-height: 1.2;
+}
+.display-container{
+   background: #44094f;
+   position: relative;
+   border-radius: 1rem;
+   border-bottom: 0.35;
+   margin: 1rem 0;
+   padding-top: 0.35rem;
+}
+.display{
+    /* width: 100%; */
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0.25rem 0.25rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1px;
+    letter-spacing: 1px;
+    padding-right: 1.23rem;
+    /* display: flex; */
+    /* justify-content: space-between;
+    flex-direction: column; */
+    
+} 
+.display::placeholder{
+    position: absolute;
+    top: 10%;
+    left: 5rem;
+    font-size: 1rem;
+    line-height: 10px;
+    color: rgb(153, 153, 50);
+    opacity: 0.65;
+    text-transform: uppercase;
+}
+.strength-container{
+    color: aliceblue;
+    font-size: large;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.generateButton{
+    background:purple;
+    padding-left: 5rem;
+    color: aliceblue;
+    font-size: medium;
+    padding-right: 5rem;
+
+}
+.input-container{
+    background-color: #44094f;
+     padding-left: 1rem;
+     padding-top: 1rem;
+     color: aliceblue;
+     padding-bottom: 2rem;
+}
+.img1{
+    background-color: transparent;
+}
+.length-container{
+    display: flex;
+    padding-bottom: 1rem;
+    justify-content: space-between;
+}
+.indicator{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
